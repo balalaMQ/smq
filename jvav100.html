@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .center{
+            width: 100%;
+            background: rgb(210,210,210);
+        }
+        html,body{
+            width: 100%;
+            height: 100%;
+            margin:0;
+            padding: 0;
+        }
+        .outer{
+            width: 100%;
+        }
+        .center-left{
+            width: 75%;
+            background: red;
+            float: left;
+        }
+        .center-right{
+            width: 25%;
+            background: blue;
+            height: 300px;
+            float: left;
+        }
+        .item{
+            width: 33%;
+            min-width: 200px;
+            background: green;
+            float: left;
+            margin-right: 2px;
+            margin-bottom: 2px;
+            position: relative;
+        }
+        .play{
+             position: absolute;
+             width: 100px;
+             height: 30px;
+             bottom: 0;
+             right: 0;
+             background: deeppink;
+             display: none;
+         }
+        .item:hover .play{
+            display: block;
+        }
+        .item-img{
+            width: 100%;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="outer" >
+        <div class="center" >
+            <div class="center-left" >
+                <div class="item" >
+                   <img src="../resource/img/game_1.jpg" class="item-img" >
+                   <div class="play" >
+                        开始游戏
+                   </div>
+                </div>
+                <div class="item" >
+                    <img src="../resource/img/game_1.jpg" class="item-img" >
+
+                    <div class="play" >
+                        开始游戏
+                    </div>
+                </div>
+                <div class="item" >
+                    <img src="../resource/img/game_1.jpg" class="item-img" >
+                    <div class="play" >
+                        开始游戏
+                    </div>
+                </div>
+                <div class="item" >
+                    <img src="../resource/img/game_1.jpg" class="item-img" >
+
+                    <div class="play" >
+                        开始游戏
+                    </div>
+                </div>
+                <div class="item" >
+                    <img src="../resource/img/game_1.jpg" class="item-img" >
+
+                    <div class="play" >
+                        开始游戏
+                    </div>
+                </div>
+                <div class="item" >
+                    <img src="../resource/img/game_1.jpg" class="item-img" >
+
+                    <div class="play" >
+                        开始游戏
+                    </div>
+                </div>
+            </div>
+            <div class="center-right" >
+
+            </div>
+
+        </div>
+
+    </div>
+</body>
+</html>
